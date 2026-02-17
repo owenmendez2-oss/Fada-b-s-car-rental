@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+  .body{background-image:url(jeto.jpg);background-repeat:no-repeat;} 
+.container{
+  display: wrap;
+  background-color:none;Text-align:center;}
+
+.container div {background-color:none;margin: 10px;padding: 20px;font-size: 24px;}
+#intro{color:#b30000;}
+#login{position:relative;bottom:80px;background-color:#b30000;color:white;border-radius:40px;}
+#img{position:relative;left:-39px;bottom:80px;}
+#rent,#pic,ul,#req{color:#b30000;}
+.reg{text-shadow:1px 1px red;color:white;}
+#req{position:relative;top:-100px;}
+#rent{position:relative;top:-10px;}
+#date,#dob,#time{width:185px;}
+.date,.dob,.phonenum,.time,.email{color:grey;font-size:13px;}
+a{text-decoration:none;color:white;}
+
+.rules{position:relative;top:-50px;background-color:#b30000;width:100px;border:3px solid grey; border-radius:22px;}
+#rules{font-size:15px;color:white;}
+.anstore,.appstore{width:160px;height:70px;}
+#submitbtn{background:#b30000;color:white;padding:10px;}
+#fadaimg{width:200px;height:200px;}
+
+</style>
+</head>
+<body class="body">
+
+<div class="container">
+    
+  <div id="intro">RENT A CAR
+      <p id="login"><a href="fada bs.html">FADA B'S</a></p>  
+  </div>
+  
+  <div class="rules"><p id="rules"><a href="rentrules.html">SEE RULES & RATES</a></p></div>
+ 
+  <div id="rent">
+      <form action="https://formspree.io/f/mvzbrbbz" method="POST">
+        <label for="fname" class="reg">BOOK</label><br>
+      <input type="text" placeholder="First Name" id="fname"name="Fname" required><br>
+      <label for="lname">
+           </label><br>
+           <input type="text" id="lname" name="Lname"placeholder="Last Name" required><br>
+       <label for="dob" class="dob"> Please specify your date of birth </label><br>
+      <input type="date" placeholder="Date of birth" id="dob"name="D.O.B" requi><br>
+      <label for="phonenum" class="phonenum"> Please provide a contact number </label><br>
+      <input type="text" placeholder="123-456-7777" name="Phone number"><br>
+      <label for="email" class="email"> Please state your email address </label><br>
+      <input type="text"  placeholder="someone@email.com" name="Email address"><br>
+      <label for"date" class="date"> Please specify the date for rental </label><br>
+      <input type="date"                   id="date" name="Date expecting rental"><br>
+      <lable for="time" class="time"> Please specify the time for rental </lable><br>
+      <input for"time" type="time" name="Time expecting rental"id="time" required><br><br>
+      <input type="submit" id="submitbtn">
+      
+     </form>
+  </div>
+  
+  
+  <image id="fadaimg" src="fadabi.png"></image>
+  
+  <div class="store"><p>Download the app</p>
+      <a href="https://share.google/8k102W3xE8VHgMe5d"><image class="anstore" src="anstore.png"></image></a></div>
+      <div><a href="https://www.apple.com/lae/"><image src="appstore.png" class="appstore"></a></image></div>
+       
+ </div>
+ 
+ </body>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+  .body{background-image:url(jeto.jpg);background-repeat:no-repeat;} 
+.container{
+  display: wrap;
+  background-color:none;Text-align:center;
+}
+
+.container div {
+  background-color:none;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+#intro{color:#b30000;}
+#login{position:relative;bottom:80px;background-color:#b30000;color:white;border-radius:40px;}
+#img{position:relative;left:-39px;bottom:80px;}
+#rent,#pic,ul,#req{color:#b30000;} #ul{text-align:justify;}
+#req{position:relative;top:-100px;}
+#date,#time,#phonenum{color:grey;font-size:13px;}
+.date{width:190px;}
+.time{width:190px;}
+.reg{color:white;text-shadow:1px 1px red;}
+.rules{position:relative;top:-50px;background-color:#b30000;width:100px;border:3px solid grey; border-radius:22px;}
+#rules{font-size:15px;color:white;}
+a{text-decoration:none;color:white;}
+.anstore,.appstore{width:160px;height:70px;}
+#submitbtn{padding:10px;background:#b30000;color:white;}
+#adv{position:relative;top:-200px;color:white;}
+#advsec{color:white;font-size:20px;text-shadow:1px 1px black;position:relative;top:-190px;}
+#adv{font-size:30px;animation:mymove 1s infinite;}
+@keyframes mymove{from{color:orange;}to{color:pink;}}
+#fadaimg{width:200px;height:200px;}
+
+</style>
+</head>
+<body class="body">
+
+<div class="container">        
+    
+  <div id="intro">PICPUP & DROP OFF
+    <p id="login"><a href="fada bs.html">FADA B'S</a></p>  
+  </div>
+  <div class="rules"><p id="rules"><a href="pickuprules.html">SEE RULES & RATES</a></p></div>
+ 
+  <div id="rent">
+      <form action="https://formspree.io/f/mvzbrbbz" method="post">
+          <label class="reg">BOOK</label>
+        <label for="fname"></label><br>
+      <input type="text" placeholder="First Name" id="fname"name="Fname" required><br>
+      <label for="lname"></label><br>
+           <input type="text" placeholder="Last Name" id="lname" name="Lname" required><br>
+           <label id="phonenum" for="phonenum">Please provide a contact number </label><br>
+           <input name="Phone number" type="text"placeholder="123-456-7777" required><br>
+           <label for="email"></label><br>
+           <input type="text" name="Email" placeholder="someone@email.com" id="email" required><br>
+      <label for"location"></label><br>
+          <input type="text" placeholder="Current Location"id="loc "name="Location" required><br>
+          <label for="destination"></label><br>
+          <input name="Destination" type="text"placeholder="Destination" required><br>
+          <label id="date" for=" date"> Please specify the date for pick up</label><br>
+          <input name="Date"class="date"type="date" required><br>
+          <label for="time" id="time"> Please specify the time for pickup</label><br>
+          <input name="Time"class=
+          "time" type="time" required><br><br>
+          <input type="submit" id="submitbtn">
+      
+     </form>
+  </div>
+  
+  
+  <image id="advimg" src="grace.jpg"><p id="adv">RENT A CAR!!<br>WHAT YOU WAITING ON? </p><p id="advsec">Rent one of our vehicles<br> at a reasonable price.</p></image>
+
+  
+  <image id="fadaimg" src="fadabi.png"></image>
+  
+  <div class="store"><p>Download the app</p>
+      <image class="anstore" src="anstore.png"></image></div>
+      <div><image src="appstore.png" class="appstore"></image></div>
+       
+ </div>
+ 
+ </body>
